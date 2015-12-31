@@ -34,7 +34,7 @@ module Async =
 
 
 let mutable registryManager:RegistryManager=null
-let connectionString = "HostName=PWZIOTHUB1.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=JR8bAe3jN5n3ZqDpHenA+F0QoeiIN6Jg9ooHKM3nXmE="
+let connectionString = "HostName=PWZIOTHUB1.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=*******"
 
 let AddDeviceAsync= async {        
     let deviceId = "Device2"
