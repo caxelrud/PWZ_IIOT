@@ -10,11 +10,11 @@ The objective of this project is to demonstrate a solution for Industrial Intern
    * Client Buffering
 
 These are usefull links:
-(1) http://www.lucidmotions.net/2016/11/introduction-to-azure-iot-with-fsharp.html
-(2) https://github.com/Microsoft/iot-samples
-(3) https://github.com/hoetz/IoTHubFsharp
-(4) https://github.com/WilliamBerryiii/Azure.IotHub.Examples.FSharp
-(5) https://github.com/Azure/iot-gateway-opc-ua
+   * (1) http://www.lucidmotions.net/2016/11/introduction-to-azure-iot-with-fsharp.html
+   * (2) https://github.com/Microsoft/iot-samples
+   * (3) https://github.com/hoetz/IoTHubFsharp
+   * (4) https://github.com/WilliamBerryiii/Azure.IotHub.Examples.FSharp
+   * (5) https://github.com/Azure/iot-gateway-opc-ua
 
 ## UPDATES
 4/282017: Sucessfully tested the examples from (2).
