@@ -15,6 +15,7 @@ These are usefull links:
    * (3) https://github.com/hoetz/IoTHubFsharp
    * (4) https://github.com/WilliamBerryiii/Azure.IotHub.Examples.FSharp
    * (5) https://github.com/Azure/iot-gateway-opc-ua
+   * (6) https://www.youtube.com/watch?v=ZMckCRToz1Y (video)
 
 ## UPDATES
 4/282017: Sucessfully tested the examples from (2).
