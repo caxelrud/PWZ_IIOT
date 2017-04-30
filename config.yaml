@@ -3,9 +3,9 @@ AzureIoTHubConfig:
   IotHubStorageUri:
   IoTHubStorageContainer: 
   IotHubD2CEndpoint: messages/events
-  ConnectionString: HostName=iot-fsharp-hub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=iCQHxTcy2xQWkXNaytTzK7yxwoHlQEodvtV5nq3Qw90=
+  ConnectionString: {}
 DeviceConfigs:
 - Nickname: My Test Device 1
   DeviceId: Device1
-  Key: amlaRTSxbzXkDBAVejm2vxC0qjWV7nPR6MdxmEG2Py4=
+  Key: {}
   Status: Enabled
