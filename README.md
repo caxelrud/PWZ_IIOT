@@ -31,6 +31,9 @@ These are usefull links:
     KEPWARE: from [ https://www.kepware.com/en-us/products/kepserverex/ ]
 2. Install IOT Gateway:
     KEPWARE: from [https://www.kepware.com/en-us/products/kepserverex/advanced-plug-ins/iot-gateway/]
+3. OPC client:
+    The OPC client is described at:
+    http://caxelrud.blogspot.com/2011/01/opcnet-client-in-f.html
 
 
 
