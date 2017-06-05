@@ -1,0 +1,11 @@
+AzureIoTHubConfig:
+  IoTHubUri: 
+  IotHubStorageUri:
+  IoTHubStorageContainer: 
+  IotHubD2CEndpoint: messages/events
+  ConnectionString: 
+DeviceConfigs:
+- Nickname: My Test Device
+  DeviceId: DeviceId
+  Key: 
+  Status: Enabled

@@ -1,0 +1,11 @@
+AzureIoTHubConfig:
+  IoTHubUri: iot-fsharp-hub.azure-devices.net
+  IotHubStorageUri:
+  IoTHubStorageContainer: 
+  IotHubD2CEndpoint: messages/events
+  ConnectionString: {}
+DeviceConfigs:
+- Nickname: My Test Device 1
+  DeviceId: Device1
+  Key: {}
+  Status: Enabled

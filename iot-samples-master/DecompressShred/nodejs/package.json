@@ -1,0 +1,12 @@
+{
+  "name": "azure-functions-nodejs-sample",
+  "version": "0.0.1",
+  "description": "Example Azure Function for decompressing and shredding IoT Hub messages.",
+  "repository":"",
+  "main": "index.js",
+  "author": "Microsoft",
+  "license": "MIT",
+  "dependencies": {
+    "eventhubs-js": "latest"
+  }
+}

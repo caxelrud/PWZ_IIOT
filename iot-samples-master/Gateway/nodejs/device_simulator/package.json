@@ -1,0 +1,13 @@
+{
+  "name": "nodejs_modules",
+  "version": "0.0.1",
+  "description": "eample Azure IoT Hub Field Gateway",
+  "repository":"",
+  "main": "iothub_writer.js",
+  "author": "Microsoft",
+  "license": "MIT",
+  "dependencies": {
+    "express": "latest",
+    "request":"latest"
+  }
+}

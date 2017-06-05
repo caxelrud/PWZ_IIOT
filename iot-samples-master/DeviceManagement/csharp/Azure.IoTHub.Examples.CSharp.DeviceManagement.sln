@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{3E5B0689-B9C3-4912-ABC6-CF35340D448B}"
+	ProjectSection(SolutionItems) = preProject
+		config\config.default.yaml = config\config.default.yaml
+		config\config.yaml = config\config.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.IoTHub.Examples.CSharp.CreateDeviceIdentity", "CreateDeviceIdentity\Azure.IoTHub.Examples.CSharp.CreateDeviceIdentity.csproj", "{4B4A4CF3-762B-4BCB-8868-A6B31719B0B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.IoTHub.Examples.Csharp.DeleteDevice", "DeleteDevice\Azure.IoTHub.Examples.Csharp.DeleteDevice.csproj", "{D73192F1-87B1-443F-9EB1-6CB049BAFEA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.IoTHub.Examples.CSharp.DeviceSimulator", "DeviceSimulator\Azure.IoTHub.Examples.CSharp.DeviceSimulator.csproj", "{1C25C241-FC81-48C6-BE21-2307F92427BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.IoTHub.Examples.CSharp.ReadDeviceToCloudMessages", "ReadDeviceToClouldMessages\Azure.IoTHub.Examples.CSharp.ReadDeviceToCloudMessages.csproj", "{DAAF449F-2148-4D83-A419-289EA66E15E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.IoTHub.Examples.CSharp.SendCloudToDeviceMessages", "SendCloudToDeviceMessages\Azure.IoTHub.Examples.CSharp.SendCloudToDeviceMessages.csproj", "{A4CA5372-4344-496A-8885-3527BF286C5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.IoTHub.Examples.CSharp.Core", "Core\Azure.IoTHub.Examples.CSharp.Core.csproj", "{E97D93E8-A92A-45B5-972C-B417E9C11858}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{BAF41412-15E4-4C63-AF25-424AE9911563}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.IoTHub.Examples.CSharp.Jobs", "Jobs\Azure.IoTHub.Examples.CSharp.Jobs.csproj", "{E03E7EA5-7AFF-41A7-A860-4A6A6E05627C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B4A4CF3-762B-4BCB-8868-A6B31719B0B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B4A4CF3-762B-4BCB-8868-A6B31719B0B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B4A4CF3-762B-4BCB-8868-A6B31719B0B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B4A4CF3-762B-4BCB-8868-A6B31719B0B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D73192F1-87B1-443F-9EB1-6CB049BAFEA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D73192F1-87B1-443F-9EB1-6CB049BAFEA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D73192F1-87B1-443F-9EB1-6CB049BAFEA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D73192F1-87B1-443F-9EB1-6CB049BAFEA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C25C241-FC81-48C6-BE21-2307F92427BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C25C241-FC81-48C6-BE21-2307F92427BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C25C241-FC81-48C6-BE21-2307F92427BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C25C241-FC81-48C6-BE21-2307F92427BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAAF449F-2148-4D83-A419-289EA66E15E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAAF449F-2148-4D83-A419-289EA66E15E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAAF449F-2148-4D83-A419-289EA66E15E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAAF449F-2148-4D83-A419-289EA66E15E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4CA5372-4344-496A-8885-3527BF286C5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4CA5372-4344-496A-8885-3527BF286C5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4CA5372-4344-496A-8885-3527BF286C5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4CA5372-4344-496A-8885-3527BF286C5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E97D93E8-A92A-45B5-972C-B417E9C11858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E97D93E8-A92A-45B5-972C-B417E9C11858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E97D93E8-A92A-45B5-972C-B417E9C11858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E97D93E8-A92A-45B5-972C-B417E9C11858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E03E7EA5-7AFF-41A7-A860-4A6A6E05627C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E03E7EA5-7AFF-41A7-A860-4A6A6E05627C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E03E7EA5-7AFF-41A7-A860-4A6A6E05627C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E03E7EA5-7AFF-41A7-A860-4A6A6E05627C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8
+	EndGlobalSection
+EndGlobal

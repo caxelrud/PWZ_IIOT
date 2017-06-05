@@ -1,0 +1,27 @@
+{
+  "name": "nodejs_modules",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Example Azure IoT Hub Field Gateway",
+  "repository":"",
+  "main": "iothub_writer.js",
+  "author": "Microsoft",
+  "license": "MIT",
+  "dependencies": {
+    "async": "latest",
+    "azure-iot-device": "1.0.15",
+    "azure-iot-device-amqp": "1.0.15",
+    "azure-iot-device-http": "1.0.16",
+    "express": "latest",
+    "body-parser":"latest",
+    "tmp": "latest",
+    "uuid": "latest"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.2"
+  },
+  "scripts": {
+    "lint": "jshint --show-non-errors .",
+    "test": "npm -s run lint"
+  }
+}

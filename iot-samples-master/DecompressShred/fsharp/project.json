@@ -1,0 +1,17 @@
+{
+    "name": "DecompShred",
+    "version": "0.0.1",
+    "description": "Example decompression & shred Azure Function",
+    "copyright": "Microsoft",
+    "title": "Decompression & Shred Azure Function",
+    "entryPoint": "DecompShred.fsx",
+    "authors": ["Microsoft"],
+    "language": "F#",
+    "frameworks": {
+        "net46":{
+            "dependencies": {
+                "WindowsAzure.ServiceBus": "3.4.0"
+            }
+        }
+    }
+}

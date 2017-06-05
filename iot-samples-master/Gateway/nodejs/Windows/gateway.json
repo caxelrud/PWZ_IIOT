@@ -1,0 +1,54 @@
+{
+  "modules": [
+    
+    {
+      "module name": "receiver",
+      "module path": "bin//nodejs_binding_hl.dll",
+      "args": {
+        "main_path": "js//receiver.js",
+        "args": {
+          "port" : 8080  
+        }
+      }
+    },
+    {
+      "module name": "batcher",
+      "module path": "bin//nodejs_binding_hl.dll",
+      "args": {
+        "main_path": "js//batcher.js",
+        "args": null
+      }
+    },
+    {
+      "module name": "compressor",
+      "module path": "bin//nodejs_binding_hl.dll",
+      "args": {
+        "main_path": "js//compressor.js",
+        "args": null
+      }
+    },
+    {
+      "module name": "iothub_writer",
+      "module path": "bin//nodejs_binding_hl.dll",
+      "args": {
+        "main_path": "js//iothub.js",
+        "args": {
+          "connection_string": "HostName={hub_name}.azure-devices.net;DeviceId={devi_idce};SharedAccessKey={shared_access_key}"
+        }
+      }
+    },
+    {
+      "module name": "Logger",
+      "module path": "bin//logger_hl.dll",
+      "args": {
+        "filename": "gateway.log.json"
+      }
+    }
+  ],
+  "links": [
+    { "source": "*", "sink": "Logger" },
+    { "source": "receiver", "sink": "batcher" },
+    { "source": "batcher", "sink": "compressor" },
+    { "source": "compressor", "sink": "iothub_writer" }
+  ]
+}

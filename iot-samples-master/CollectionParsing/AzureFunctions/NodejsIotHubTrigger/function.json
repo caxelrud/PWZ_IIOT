@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "myEventHubTrigger",
+      "direction": "in",
+      "path": "iotsamplessg",
+      "connection": "eventhubconnstr"
+    },
+    {
+      "type": "eventHub",
+      "name": "outputEventHubMessage",
+      "path": "iotsamplesout",
+      "connection": "outeventhubconn",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}

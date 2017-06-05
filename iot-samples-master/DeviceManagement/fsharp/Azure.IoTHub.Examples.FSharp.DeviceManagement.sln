@@ -1,0 +1,59 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{F290CB8A-B0D2-48AC-B075-4BB1A84118D6}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\ExampleFSharpScripts.fsx = scripts\ExampleFSharpScripts.fsx
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Azure.IoTHub.Examples.FSharp.CreateDeviceIdentity", "CreateDeviceIdentity\Azure.IoTHub.Examples.FSharp.CreateDeviceIdentity.fsproj", "{0349E5AF-C909-4BD1-AF6B-1464BF4A3E18}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Azure.IoTHub.Examples.FSharp.DeviceSimulator", "DeviceSimulator\Azure.IoTHub.Examples.FSharp.DeviceSimulator.fsproj", "{A030563D-CC13-44AF-802C-775085B9F942}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Azure.IoTHub.Examples.FSharp.ReadDeviceToCloudMessages", "ReadDeviceToCloudMessages\Azure.IoTHub.Examples.FSharp.ReadDeviceToCloudMessages.fsproj", "{217A1C20-37AE-4E2D-BE28-4BE7CEE22B3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{33664524-E2A5-43A4-B898-6C3B75296F78}"
+	ProjectSection(SolutionItems) = preProject
+		config\config.default.yaml = config\config.default.yaml
+		config\config.yaml = config\config.yaml
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Azure.IoTHub.Examples.FSharp.DeleteDevice", "DeleteDevice\Azure.IoTHub.Examples.FSharp.DeleteDevice.fsproj", "{E4CE38CF-F5E3-4B11-B70D-9B819B71340D}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Azure.IoTHub.Examples.FSharp.SendCloudToDeviceMessages", "SendCloudToDeviceMessages\Azure.IoTHub.Examples.FSharp.SendCloudToDeviceMessages.fsproj", "{794661DD-F912-4C05-A1A0-05080F31DC09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0349E5AF-C909-4BD1-AF6B-1464BF4A3E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0349E5AF-C909-4BD1-AF6B-1464BF4A3E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0349E5AF-C909-4BD1-AF6B-1464BF4A3E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0349E5AF-C909-4BD1-AF6B-1464BF4A3E18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A030563D-CC13-44AF-802C-775085B9F942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A030563D-CC13-44AF-802C-775085B9F942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A030563D-CC13-44AF-802C-775085B9F942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A030563D-CC13-44AF-802C-775085B9F942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{217A1C20-37AE-4E2D-BE28-4BE7CEE22B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217A1C20-37AE-4E2D-BE28-4BE7CEE22B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217A1C20-37AE-4E2D-BE28-4BE7CEE22B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217A1C20-37AE-4E2D-BE28-4BE7CEE22B3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4CE38CF-F5E3-4B11-B70D-9B819B71340D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4CE38CF-F5E3-4B11-B70D-9B819B71340D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4CE38CF-F5E3-4B11-B70D-9B819B71340D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4CE38CF-F5E3-4B11-B70D-9B819B71340D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{794661DD-F912-4C05-A1A0-05080F31DC09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{794661DD-F912-4C05-A1A0-05080F31DC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{794661DD-F912-4C05-A1A0-05080F31DC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{794661DD-F912-4C05-A1A0-05080F31DC09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8
+	EndGlobalSection
+EndGlobal
